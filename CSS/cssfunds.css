@@ -1,15 +1,16 @@
 body {
     font-family: Helvetica, Arial, Helvetica, sans-serif;
-    background-color: royalblue;
+    background-color: midnightblue;
 }
 
 .header {
-    font-size: 10px;
+    font-size: 16px;
     font-weight: bold;
     text-align: center;
+    
 }
 
-.tabletitle {
+.warning {
     font-size: 8px;
     color: dodgerblue;
     text-align: center;
