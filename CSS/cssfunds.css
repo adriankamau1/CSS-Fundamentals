@@ -1,6 +1,7 @@
 body {
     font-family: Helvetica, Arial, Helvetica, sans-serif;
-    background-color: midnightblue;
+    background-color: rgb(9, 9, 77);
+    color: white;
 }
 
 .header {
@@ -26,13 +27,16 @@ body {
  .title th {
     border: 1px solid black;
     background-color: deepskyblue;
+    color: black;
  }
 
   .one {
+   color: black;
     background-color: lightsteelblue;
  }
 
  .two{
+    color: black;
     background-color: steelblue;
  }
 
@@ -41,11 +45,12 @@ body {
  }
 
  .definition {
-   font-size: 8px;
+   text-align: center;
+   font-size: 16px;
  }
 
  .question {
-   font-size: 10px;
+   font-size: 24px;
  }
 
 
