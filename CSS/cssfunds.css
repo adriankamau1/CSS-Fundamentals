@@ -1,7 +1,7 @@
 body {
     font-family: Helvetica, Arial, Helvetica, sans-serif;
     background-color: rgb(9, 10, 77);
-    color: yellow;
+    color: white;
 }
 
 .header {
@@ -45,13 +45,16 @@ body {
  }
 
  .definition {
-   text-align:center;
+   text-align:left;
    font-size: 16px;
  }
 
  .question {
    font-size: 24px;
-   text-align: center;
+   text-align: left;
  }
 
+ .specificity p {
+   
+ }
 

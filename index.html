@@ -24,6 +24,9 @@
                 <h2>How many types of selectors are there?</h2>
                 <p>There are three fundamental forms of selectors which will be shown in the graph below.</p>
             </div>
+            <div>
+                <h2 style="text-align: center">Selector table</h2>
+            </div>
             <table>
                 <thead>
                     <tr class="title">
@@ -51,9 +54,19 @@
                     <td class="typedescription">attribute used to select an element, must use "#" before class name <br>*only one element per id*</td>
                     <td class="typedescription">HTML: id="ex2"; Selector: #ex2{declaration}</td>
                     </tr>
+
+                    <tr class="two">
+                        <td class="ex">Psuedo-Class</td>
+                        <td class="typedescription">selectors that can change the appearance or state of certain eleements after certain user interactions<br>must ":" before calling psuedo-class and must be attached to a non-psuedoclass selector of your choice</td>
+                        <td class="typedescription">HTML: <p>this turns blue when i hover. css: p:hover{color: blue}</p> </td>
+                    </tr>
                     
                 </tbody>
             </table>
+            <div class="specificity">
+                <h2>Specificity</h2>
+                <p>Specificty is the order in which the browser decidese which css styles will be displayed. It's good practice to style elements with lower specificity as it's easier to override.<br> ID are the most specific selector in CSS, followed by classes, and finally type</p>
+            </div>
         </div>
         
     </body>
